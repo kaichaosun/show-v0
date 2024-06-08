@@ -5,7 +5,7 @@
 */
 import { Card } from "@/components/ui/card"
 
-export function shortform() {
+export function Shortform() {
   return (
     <Card
       key="1"

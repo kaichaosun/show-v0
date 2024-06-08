@@ -1,4 +1,5 @@
-import { shortform } from '@/components/shortform'
+import { Price } from '@/components/price'
+import { Shortform } from '@/components/shortform'
 import { useState } from 'react'
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
         </button>
       </div>
 
-      {shortform()}
+      <Shortform />
+      
+      <Price />
     </div>
   )
 }
