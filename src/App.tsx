@@ -7,6 +7,8 @@ import { Terminal } from "./components/terminal";
 import { Testimonial } from "./components/testimonial";
 import { Music } from "./components/music";
 import { DynamicMenu } from "@/components/dynamic-menu";
+import { PopoverSlideSelector } from "./components/popover-slide";
+import ExplodingMenu from "./components/explore-menu";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,6 +37,10 @@ function App() {
       <Music />
 
       <DynamicMenu />
+
+      <PopoverSlideSelector />
+
+      <ExplodingMenu />
     </div>
   );
 }
